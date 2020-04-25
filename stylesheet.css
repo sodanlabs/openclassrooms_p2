@@ -1,0 +1,387 @@
+/* ========================================================== */
+
+body {
+  font-family: "OpenSans", Arial, sans-serif;
+  margin: 0;
+  border: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 12px;
+}
+
+.page {
+  display: flex;
+}
+
+.MainContent {
+  order: 2;
+  width: 70%;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.MainContent i {
+  color: #feca07;
+}
+
+.Maincontent-title {
+  font-size: 20px;
+  border-bottom: 1.5px solid #feca07;
+  padding-bottom: 5px;
+}
+
+.Maincontent-title span {
+  text-transform: uppercase;
+  font-size: 17px;
+  vertical-align: top;
+}
+
+.MainInfo {
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  background-color: #feca07;
+  color: #404040;
+}
+
+.MainInfo h2 {
+  background-color: #404040;
+  color: #feca07;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+.logo {
+  color: #feca07;
+}
+
+#id-titre {
+  margin-bottom: 40px;
+}
+
+.titre h1 {
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.titre h1 span {
+  color: #feca07;
+}
+
+.titre div {
+  font-size: 16px;
+  margin-top: 0;
+  position: relative;
+}
+
+.titre div::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 40px;
+  border-bottom: 2px solid #feca07;
+}
+
+/* ========================================================== */
+
+.formation-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.formation-item-duration {
+  display: flex;
+  width: 35%;
+}
+
+.formation-item-duration-date {
+  font-size: 12px;
+}
+.formation-item-duration-logo-before {
+  font-size: 0.6rem;
+  padding-top: 4px;
+  padding-right: 10px;
+}
+
+.formation-item-duration-logo-after {
+  font-size: 0.5rem;
+  padding-top: 4px;
+  padding-left: 3px;
+  padding-right: 15px;
+}
+
+.formation-item-status {
+  width: 65%;
+}
+
+.formation-item-status h4 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.formation-item-status h5 {
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.formation-item-status p {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.formation-item-status ul {
+  font-size: 12px;
+  margin-top: 0;
+  padding: 5px 0 0 20px;
+}
+
+/* ========================================================== */
+
+.expro-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.expro-item-duration {
+  display: flex;
+  width: 35%;
+}
+
+.expro-item-duration-date {
+  font-size: 12px;
+}
+
+.expro-item-duration-logo-before {
+  font-size: 0.6rem;
+  padding-top: 4px;
+  padding-right: 10px;
+}
+
+.expro-item-duration-logo-after {
+  font-size: 0.5rem;
+  padding-top: 4px;
+  padding-left: 3px;
+  padding-right: 15px;
+}
+
+.expro-item-status {
+  width: 65%;
+}
+
+.expro-item-status h4 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.expro-item-status h5 {
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.expro-item-status p {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.expro-item-status ul {
+  font-size: 12px;
+  margin-top: 0;
+  padding: 5px 0 0 20px;
+}
+
+/* ========================================================== */
+
+.recommandations-items {
+  display: flex;
+}
+
+.recommandations-items div {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.recommandations-items-name {
+  display: inline-block;
+  padding-bottom: 5px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.recommandations-items p {
+  font-style: italic;
+  text-align: justify;
+}
+
+/* ========================================================== */
+
+.portrait {
+  display: flex;
+  justify-content: center;
+}
+
+.portrait img {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/* ========================================================== */
+
+.contact div {
+  padding: 10px 20px;
+}
+
+.contact a {
+  font-style: italic;
+}
+
+/* ========================================================== */
+
+.apropos p {
+  text-align: justify;
+  padding: 20px 25px;
+}
+
+/* ========================================================== */
+
+.loisirs-logo {
+  display: flex;
+  justify-content: space-around;
+}
+.loisirs-logo div {
+}
+.loisirs-logo i {
+  text-align: center;
+  border: 3px solid #404040;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+/* ============================================================= */
+
+@media screen and (max-width: 599px) {
+  p {
+    font-size: 12px;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MainContent {
+    order: 1;
+    width: 95%;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+
+  .MainInfo {
+    width: 100%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ========================================================== */
+
+  .formation-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .formation-item h4 {
+    font-weight: bolder;
+  }
+
+  .formation-item-duration {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .formation-item-status {
+    width: 100%;
+    text-align: justify;
+  }
+
+  /* ========================================================== */
+
+  .expro-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .expro-item h4 {
+    font-weight: bolder;
+  }
+
+  .expro-item-duration {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .expro-item-status {
+    width: 100%;
+    text-align: justify;
+  }
+  /* ========================================================== */
+
+  .recommandations-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recommandations-items div {
+    width: 90%;
+  }
+
+  .portrait {
+    display: none;
+  }
+
+  .apropos p {
+    padding: 20px 10px;
+  }
+
+  .loisirs-logo {
+    display: flex;
+    justify-content: space-around;
+  }
+  .loisirs-logo div {
+  }
+  .loisirs-logo i {
+    text-align: center;
+    border: 3px solid #404040;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    vertical-align: center;
+  }
+}
+
+/* ========================================================================== */
