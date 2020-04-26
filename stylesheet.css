@@ -12,6 +12,7 @@ p {
 
 .page {
   display: flex;
+  height: 100%;
 }
 
 .MainContent {
