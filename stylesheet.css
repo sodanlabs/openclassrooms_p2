@@ -15,7 +15,7 @@ p {
 
 .MainContent {
   justify-content: space-between;
-  order: 2;
+  order:2;
   padding-right: 30px;
   padding-left: 50px;
   width: 70%;
@@ -209,11 +209,11 @@ p {
 
 .recommandations-items {
   display: flex;
+  justify-content: space-between;
 }
 
 .recommandations-items div {
-  width: 50%;
-  margin-right: 15px;
+  width: 46%;
 }
 
 .recommandations-items-name {
@@ -279,21 +279,21 @@ p {
 /* ============================================================= */
 
 @media screen and (max-width: 599px) {
-  
   .page {
     flex-direction: column;
   }
 
   .MainContent {
     order: 1;
-    padding-right: 15px;
-    padding-left: 10px;
+    padding: 0 5px;
     width: 95%;
   }
 
+  .Maincontent-title span {
+    font-size: 15px; /**/
+  }
+
   .MainInfo {
-    display: flex;
-    flex-direction: column;
     order: 2;
     width: 100%;
   }
@@ -301,10 +301,8 @@ p {
   /* ========================================================== */
 
   .formation-item {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 
   .formation-item h4 {
@@ -313,7 +311,7 @@ p {
 
   .formation-item-duration {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     width: 100%;
   }
 
@@ -325,9 +323,7 @@ p {
   /* ========================================================== */
 
   .expro-item {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-bottom: 15px;
   }
 
@@ -337,23 +333,23 @@ p {
 
   .expro-item-duration {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     width: 100%;
   }
 
   .expro-item-status {
     width: 100%;
-    text-align: justify;
   }
   /* ========================================================== */
 
   .recommandations-items {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
   }
 
   .recommandations-items div {
-    width: 90%;
+    width: 100%;
   }
 
   .portrait {
@@ -361,23 +357,11 @@ p {
   }
 
   .apropos p {
-    padding: 20px 10px;
-  }
-
-  .loisirs-logo {
     display: flex;
-    justify-content: space-around;
-  }
-  .loisirs-logo div {
-  }
-  .loisirs-logo i {
-    border: 3px solid #404040;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    vertical-align: center;
-    text-align: center;
-    font-size: 15px;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: justify;
   }
 }
 
