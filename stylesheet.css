@@ -1,8 +1,7 @@
 /* ========================================================== */
 body {
-  font-family: "OpenSans", Arial, sans-serif;
   margin: 0;
-  border: 1.5px solid rgba(0, 0, 0, 0.1);
+  font-family: "OpenSans", Arial, sans-serif;
 }
 
 p {
@@ -11,13 +10,15 @@ p {
 
 .page {
   display: flex;
+  min-height: 100vh;
 }
 
 .MainContent {
+  justify-content: space-between;
   order: 2;
-  width: 70%;
-  padding-left: 50px;
   padding-right: 30px;
+  padding-left: 50px;
+  width: 70%;
 }
 
 .MainContent i {
@@ -25,35 +26,34 @@ p {
 }
 
 .Maincontent-title {
-  font-size: 20px;
   border-bottom: 1.5px solid #feca07;
   padding-bottom: 5px;
+  font-size: 20px;
 }
 
 .Maincontent-title span {
+  vertical-align: top;
   text-transform: uppercase;
   font-size: 17px;
-  vertical-align: top;
 }
 
 .MainInfo {
-  width: 30%;
-  /* height: 100%; */
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
-  display: flex;
   background-color: #feca07;
+  width: 30%;
   color: #404040;
 }
 
 .MainInfo h2 {
   background-color: #404040;
-  color: #feca07;
+  padding: 5px;
   text-align: center;
   text-transform: uppercase;
-  padding: 5px;
-  font-weight: lighter;
+  color: #feca07;
   font-size: 17px;
+  font-weight: lighter;
 }
 
 .logo {
@@ -65,11 +65,11 @@ p {
 }
 
 .titre h1 {
-  text-transform: uppercase;
-  text-align: left;
-  font-weight: lighter;
-  font-size: 30px;
   margin-bottom: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 .titre h1 span {
@@ -77,17 +77,17 @@ p {
 }
 
 .titre div {
-  font-size: 16px;
-  margin-top: 0;
   position: relative;
+  margin-top: 0;
+  font-size: 16px;
 }
 
 .titre div::after {
-  position: absolute;
-  content: "";
   display: block;
-  width: 40px;
+  position: absolute;
   border-bottom: 2px solid #feca07;
+  width: 40px;
+  content: "";
 }
 
 /* ========================================================== */
@@ -107,16 +107,16 @@ p {
   font-size: 12px;
 }
 .formation-item-duration-logo-before {
-  font-size: 0.6rem;
   padding-top: 4px;
   padding-right: 10px;
+  font-size: 0.6rem;
 }
 
 .formation-item-duration-logo-after {
-  font-size: 0.5rem;
   padding-top: 4px;
-  padding-left: 3px;
   padding-right: 15px;
+  padding-left: 3px;
+  font-size: 0.5rem;
 }
 
 .formation-item-status {
@@ -125,9 +125,9 @@ p {
 
 .formation-item-status h4 {
   margin: 0;
+  text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 .formation-item-status h5 {
@@ -142,9 +142,9 @@ p {
 }
 
 .formation-item-status ul {
-  font-size: 12px;
   margin-top: 0;
   padding: 5px 0 0 20px;
+  font-size: 12px;
 }
 
 /* ========================================================== */
@@ -165,16 +165,16 @@ p {
 }
 
 .expro-item-duration-logo-before {
-  font-size: 0.6rem;
   padding-top: 4px;
   padding-right: 10px;
+  font-size: 0.6rem;
 }
 
 .expro-item-duration-logo-after {
-  font-size: 0.5rem;
   padding-top: 4px;
-  padding-left: 3px;
   padding-right: 15px;
+  padding-left: 3px;
+  font-size: 0.5rem;
 }
 
 .expro-item-status {
@@ -183,9 +183,9 @@ p {
 
 .expro-item-status h4 {
   margin: 0;
+  text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 .expro-item-status h5 {
@@ -200,9 +200,9 @@ p {
 }
 
 .expro-item-status ul {
-  font-size: 12px;
   margin-top: 0;
   padding: 5px 0 0 20px;
+  font-size: 12px;
 }
 
 /* ========================================================== */
@@ -219,13 +219,13 @@ p {
 .recommandations-items-name {
   display: inline-block;
   padding-bottom: 5px;
-  font-style: normal;
   text-transform: uppercase;
+  font-style: normal;
 }
 
 .recommandations-items p {
-  font-style: italic;
   text-align: justify;
+  font-style: italic;
 }
 
 /* ========================================================== */
@@ -255,8 +255,8 @@ p {
 /* ========================================================== */
 
 .apropos p {
-  text-align: justify;
   padding: 20px 25px;
+  text-align: justify;
 }
 
 /* ========================================================== */
@@ -265,24 +265,25 @@ p {
   display: flex;
   justify-content: space-around;
 }
-.loisirs-logo div {
-}
+
 .loisirs-logo i {
-  text-align: center;
-  border: 3px solid #404040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #404040;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
 }
 /* ============================================================= */
 
 @media screen and (max-width: 599px) {
   
   body {
+    margin: 0;
     width: 100%;
     height: 100%;
-    margin: 0;
   
   }
   
@@ -297,16 +298,16 @@ p {
 
   .MainContent {
     order: 1;
-    width: 95%;
     padding-right: 15px;
     padding-left: 10px;
+    width: 95%;
   }
 
   .MainInfo {
-    width: 100%;
-    order: 2;
     display: flex;
     flex-direction: column;
+    order: 2;
+    width: 100%;
   }
 
   /* ========================================================== */
@@ -324,8 +325,8 @@ p {
 
   .formation-item-duration {
     display: flex;
-    width: 100%;
     margin-bottom: 15px;
+    width: 100%;
   }
 
   .formation-item-status {
@@ -348,8 +349,8 @@ p {
 
   .expro-item-duration {
     display: flex;
-    width: 100%;
     margin-bottom: 15px;
+    width: 100%;
   }
 
   .expro-item-status {
@@ -382,13 +383,13 @@ p {
   .loisirs-logo div {
   }
   .loisirs-logo i {
-    text-align: center;
     border: 3px solid #404040;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    font-size: 15px;
     vertical-align: center;
+    text-align: center;
+    font-size: 15px;
   }
 }
 
