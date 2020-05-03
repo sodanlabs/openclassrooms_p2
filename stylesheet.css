@@ -15,7 +15,7 @@ p {
 
 .Maincontent {
   justify-content: space-between;
-  order:2;
+  order: 2;
   padding-right: 30px;
   padding-left: 50px;
   width: 70%;
@@ -92,114 +92,56 @@ p {
 
 /* ========================================================== */
 
-.formation-item {
+.item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
 }
 
-.formation-item-duration {
+.item-duration {
   display: flex;
   width: 35%;
 }
 
-.formation-item-duration-date {
+.item-duration-date {
   font-size: 12px;
 }
-.formation-item-duration-logo-before {
+.item-duration-logo-before {
   padding-top: 4px;
   padding-right: 10px;
   font-size: 0.6rem;
 }
 
-.formation-item-duration-logo-after {
+.item-duration-logo-after {
   padding-top: 4px;
   padding-right: 15px;
   padding-left: 3px;
   font-size: 0.5rem;
 }
 
-.formation-item-status {
+.item-status {
   width: 65%;
 }
 
-.formation-item-status h4 {
+.item-status h4 {
   margin: 0;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
 }
 
-.formation-item-status h5 {
+.item-status h5 {
   margin: 5px 0;
   font-size: 12px;
   font-weight: lighter;
 }
 
-.formation-item-status p {
+.item-status p {
   margin-top: 0;
   margin-bottom: 2px;
 }
 
-.formation-item-status ul {
-  margin-top: 0;
-  padding: 5px 0 0 20px;
-  font-size: 12px;
-}
-
-/* ========================================================== */
-
-.expro-item {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5px;
-}
-
-.expro-item-duration {
-  display: flex;
-  width: 35%;
-}
-
-.expro-item-duration-date {
-  font-size: 12px;
-}
-
-.expro-item-duration-logo-before {
-  padding-top: 4px;
-  padding-right: 10px;
-  font-size: 0.6rem;
-}
-
-.expro-item-duration-logo-after {
-  padding-top: 4px;
-  padding-right: 15px;
-  padding-left: 3px;
-  font-size: 0.5rem;
-}
-
-.expro-item-status {
-  width: 65%;
-}
-
-.expro-item-status h4 {
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-}
-
-.expro-item-status h5 {
-  margin: 5px 0;
-  font-size: 12px;
-  font-weight: lighter;
-}
-
-.expro-item-status p {
-  margin-top: 0;
-  margin-bottom: 2px;
-}
-
-.expro-item-status ul {
+.item-status ul {
   margin-top: 0;
   padding: 5px 0 0 20px;
   font-size: 12px;
@@ -300,46 +242,26 @@ p {
 
   /* ========================================================== */
 
-  .formation-item {
+  .item {
     flex-direction: column;
     margin-bottom: 5px;
   }
 
-  .formation-item h4 {
+  .item h4 {
     font-weight: bolder;
   }
 
-  .formation-item-duration {
+  .item-duration {
     display: flex;
     margin-bottom: 10px;
     width: 100%;
   }
 
-  .formation-item-status {
+  .item-status {
     width: 100%;
     text-align: justify;
   }
 
-  /* ========================================================== */
-
-  .expro-item {
-    flex-direction: column;
-    margin-bottom: 15px;
-  }
-
-  .expro-item h4 {
-    font-weight: bolder;
-  }
-
-  .expro-item-duration {
-    display: flex;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-
-  .expro-item-status {
-    width: 100%;
-  }
   /* ========================================================== */
 
   .recommandations-items {
