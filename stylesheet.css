@@ -2,15 +2,12 @@
 body {
   margin: 0;
   font-family: "Open Sans", Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
 }
 
 p {
   font-size: 12px;
-}
-
-.page {
-  display: flex;
-  min-height: 100vh;
 }
 
 .Maincontent {
@@ -221,7 +218,7 @@ p {
 /* ============================================================= */
 
 @media screen and (max-width: 599px) {
-  .page {
+  body {
     flex-direction: column;
   }
 
@@ -232,7 +229,7 @@ p {
   }
 
   .Maincontent-title span {
-    font-size: 15px; /**/
+    font-size: 15px;
   }
 
   .MainInfo {
