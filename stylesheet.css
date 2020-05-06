@@ -96,7 +96,7 @@ p {
 .item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin: 35px 0;
 }
 
 .item-duration {
@@ -227,7 +227,6 @@ p {
   }
 
   .Maincontent {
-    /* order: 1; */
     padding: 0 5px;
     width: 95%;
   }
@@ -237,7 +236,6 @@ p {
   }
 
   .MainInfo {
-    /* order: 2; */
     width: 100%;
   }
 
@@ -260,7 +258,7 @@ p {
 
   .item {
     flex-direction: column;
-    margin-bottom: 5px;
+    margin: 35px 0;
   }
 
   .item h4 {
