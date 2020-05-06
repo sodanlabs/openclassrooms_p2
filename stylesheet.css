@@ -258,6 +258,10 @@ p {
 
   /* ========================================================== */
 
+  .formation {
+    margin-top: 25px;
+  }
+
   .item {
     flex-direction: column;
     margin-bottom: 5px;
