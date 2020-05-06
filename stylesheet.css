@@ -91,6 +91,10 @@ p {
   content: "";
 }
 
+.titre-sidenbar {
+  display: none;
+}
+
 /* ========================================================== */
 
 .item {
@@ -227,7 +231,7 @@ p {
   }
 
   .Maincontent {
-    order: 1;
+    /* order: 1; */
     padding: 0 5px;
     width: 95%;
   }
@@ -237,8 +241,12 @@ p {
   }
 
   .MainInfo {
-    order: 2;
+    /* order: 2; */
     width: 100%;
+  }
+
+  .titre {
+    display: none;
   }
 
   /* ========================================================== */
