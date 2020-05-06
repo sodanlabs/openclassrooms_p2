@@ -253,6 +253,7 @@ p {
     display: unset;
     background-color: white;
     padding: 0 0 25px 10px;
+    margin-bottom: 0;
   }
 
   /* ========================================================== */
@@ -298,6 +299,10 @@ p {
     justify-content: center;
     padding: 15px;
     text-align: justify;
+  }
+
+  .loisirs-logo {
+    padding-bottom: 15px;
   }
 }
 
